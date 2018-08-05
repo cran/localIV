@@ -1,0 +1,12 @@
+7c2c28a3a300e2b09c8a47b7a69a3b89 *DESCRIPTION
+0a44efc95ae7492aae805a624a559a61 *NAMESPACE
+3f32aedf15595b2c1c6fe97339b83ead *R/aggregate.R
+157ecedf85000009a6a77b69ebadf176 *R/data.R
+3e939af1f08525f2d089a6389d9622d6 *R/mte.R
+97ec10e0a6d43cf4a4349e297facd70e *R/mte_localIV.R
+56806a4b7076e79c421eb6cfbb4c4a3e *R/mte_normal.R
+a909e6eb8952e10ef75fbcd5cdc924e6 *data/toydata.rda
+5d7ea5ac594c45330b160c1c7157ec0d *man/average.Rd
+251f80f42d85f2aeb9a716356b666f06 *man/mprte.Rd
+ede38d0482f6335b5534885bef5c3855 *man/mte.Rd
+ca88ff6170a8292d3559b1b5d136a8b9 *man/toydata.Rd
