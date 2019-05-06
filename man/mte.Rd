@@ -52,9 +52,21 @@ mte_fit <- mte(selection = d ~ x + z, outcome = y ~ x, data = toydata, bw = 0.25
 summary(mte_fit$ps_model)
 hist(mte_fit$ps)
 
+# plot MTE(x, u) as a function of u
+u <- seq(0.005, 0.995, 0.01)
+out <- eval_mte(mte_fit, u = u)
+plot(out$mte ~ u, type = "l", lwd = 2)
+
 }
 \references{
 Heckman, James J., Sergio Urzua, and Edward Vytlacil. 2006.
   "Understanding Instrumental Variables in Models with Essential Heterogeneity."
   The Review of Economics and Statistics 88:389-432.
+}
+\seealso{
+\code{\link{eval_mte}} for evaluating MTE at any combination of covariates x
+  and latent resistance u; \code{\link{eval_mte_tilde}} for evaluating MTE projected onto
+  the propensity score; \code{\link{average}} for estimating conventional parameters such as
+  ATE and ATT; \code{\link{mprte}} for estimating marginal policy relevant treatment effects
+  (MPRTE).
 }
