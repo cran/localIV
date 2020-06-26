@@ -2,7 +2,7 @@ Package: localIV
 Type: Package
 Title: Estimation of Marginal Treatment Effects using Local
         Instrumental Variables
-Version: 0.3.0
+Version: 0.3.1
 Authors@R: person("Xiang", "Zhou", email = "xiang_zhou@fas.harvard.edu",
   role = c("aut", "cre"))
 Description: In the generalized Roy model, the marginal treatment effect (MTE) can be used as
@@ -25,8 +25,8 @@ RoxygenNote: 7.0.2
 URL: https://github.com/xiangzhou09/localIV
 BugReports: https://github.com/xiangzhou09/localIV
 NeedsCompilation: no
-Packaged: 2020-04-01 14:07:16 UTC; Xiang
+Packaged: 2020-06-26 15:17:35 UTC; Xiang
 Author: Xiang Zhou [aut, cre]
 Maintainer: Xiang Zhou <xiang_zhou@fas.harvard.edu>
 Repository: CRAN
-Date/Publication: 2020-04-01 14:30:05 UTC
+Date/Publication: 2020-06-26 15:40:02 UTC
